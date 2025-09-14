@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnPath AI - Transform YouTube Into Structured Learning</title>
+    <meta name="description" content="AI-powered learning platform that transforms YouTube videos into structured, personalized learning journeys">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <h1>LearnPath AI</h1>
+            </div>
+            <p class="tagline">AI-Powered Learning Platform for Modern Skills</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">10M+</span>
+                    <span class="stat-label">Videos Analyzed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50K+</span>
+                    <span class="stat-label">Courses Created</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">95%</span>
+                    <span class="stat-label">Success Rate</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-card">
+                <h2><i class="fas fa-magic"></i> What do you want to master today?</h2>
+                <form class="search-form" id="searchForm">
+                    <div class="search-input-group">
+                        <i class="fas fa-search"></i>
+                        <input 
+                            type="text" 
+                            id="searchInput" 
+                            class="search-input" 
+                            placeholder="e.g., Python Programming, Digital Marketing, Machine Learning..."
+                            required
+                        >
+                    </div>
+                    <div class="search-options">
+                        <select id="difficultyLevel" class="select-input">
+                            <option value="">All Levels</option>
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                        </select>
+                        <select id="courseDuration" class="select-input">
+                            <option value="">Any Duration</option>
+                            <option value="short">Quick (1-3 hours)</option>
+                            <option value="medium">Standard (4-10 hours)</option>
+                            <option value="long">Comprehensive (10+ hours)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-robot"></i>
+                        Generate AI Course
+                    </button>
+                </form>
+                
+                <!-- Quick Suggestions -->
+                <div class="quick-suggestions">
+                    <p>Popular topics:</p>
+                    <div class="suggestion-tags">
+                        <button class="suggestion-tag" data-topic="python">Python</button>
+                        <button class="suggestion-tag" data-topic="javascript">JavaScript</button>
+                        <button class="suggestion-tag" data-topic="react">React</button>
+                        <button class="suggestion-tag" data-topic="machine learning">AI/ML</button>
+                        <button class="suggestion-tag" data-topic="data science">Data Science</button>
+                        <button class="suggestion-tag" data-topic="ui/ux design">UI/UX</button>
+                        <button class="suggestion-tag" data-topic="docker development">Docker</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading Section -->
+    <section class="loading-section" id="loadingSection">
+        <div class="container">
+            <div class="loading-card">
+                <div class="ai-animation">
+                    <div class="brain-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="loading-waves">
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                    </div>
+                </div>
+                <h3>AI is crafting your perfect learning journey...</h3>
+                <div class="loading-steps">
+                    <div class="step active" data-step="1">
+                        <i class="fas fa-search"></i>
+                        <span>Analyzing YouTube content</span>
+                    </div>
+                    <div class="step" data-step="2">
+                        <i class="fas fa-sort"></i>
+                        <span>Curating best videos</span>
+                    </div>
+                    <div class="step" data-step="3">
+                        <i class="fas fa-route"></i>
+                        <span>Creating learning path</span>
+                    </div>
+                    <div class="step" data-step="4">
+                        <i class="fas fa-magic"></i>
+                        <span>Adding AI insights</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Preview Section -->
+    <section class="course-section" id="courseSection">
+        <div class="container">
+            <!-- Course Header -->
+            <div class="course-header">
+                <div class="course-title-section">
+                    <h2 id="courseTitle">Complete Python Programming Course</h2>
+                    <p id="courseDescription">Master Python from basics to advanced concepts with this AI-curated learning journey</p>
+                </div>
+                <div class="course-stats">
+                    <div class="stat">
+                        <i class="fas fa-video"></i>
+                        <span id="totalVideos">8</span>
+                        <label>Videos</label>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-clock"></i>
+                        <span id="totalDuration">6.5</span>
+                        <label>Hours</label>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-star"></i>
+                        <span id="avgRating">4.8</span>
+                        <label>Rating</label>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-users"></i>
+                        <span id="totalViews">2.1M</span>
+                        <label>Views</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Learning Path -->
+            <div class="learning-path">
+                <h3><i class="fas fa-route"></i> AI-Generated Learning Path</h3>
+                <div class="path-visualization" id="pathVisualization">
+                    <!-- Path nodes will be generated by JS -->
+                </div>
+            </div>
+
+            <!-- Video Grid -->
+            <div class="videos-grid" id="videosGrid">
+                <!-- Video cards will be generated by JS -->
+            </div>
+
+            <!-- AI Insights Panel -->
+            <div class="ai-insights-panel">
+                <h3><i class="fas fa-lightbulb"></i> AI Learning Insights</h3>
+                <div class="insights-content" id="aiInsights">
+                    <!-- AI insights will be generated -->
+                </div>
+            </div>
+
+            <!-- Quiz Section -->
+            <div class="quiz-section">
+                <h3><i class="fas fa-question-circle"></i> Test Your Knowledge</h3>
+                <div class="quiz-container" id="quizContainer">
+                    <!-- Quiz will be generated here -->
+                </div>
+                <button class="btn btn-primary" id="generateQuizBtn">
+                    <i class="fas fa-brain"></i> Generate AI Quiz
+                </button>
+            </div>
+
+            <!-- Interactive Notes Section -->
+            <div class="notes-section">
+                <h3><i class="fas fa-sticky-note"></i> Interactive Learning Notes</h3>
+                <div class="notes-container" id="notesContainer">
+                    <!-- Interactive notes will be generated here -->
+                </div>
+                <button class="btn btn-secondary" id="generateNotesBtn">
+                    <i class="fas fa-file-alt"></i> Generate AI Notes
+                </button>
+            </div>
+
+            <!-- Progress Tracking -->
+            <div class="progress-tracking">
+                <h3><i class="fas fa-chart-line"></i> Your Learning Progress</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                </div>
+                <div class="progress-stats">
+                    <span><strong>0</strong> of <span id="totalLessons">8</span> completed</span>
+                    <span class="estimated-time">Estimated completion: <strong id="estimatedTime">5 days</strong></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="video-player">
+                <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-info">
+                <h3 id="modalVideoTitle"></h3>
+                <div class="video-actions">
+                    <button class="btn btn-primary" id="markComplete">
+                        <i class="fas fa-check"></i> Mark as Complete
+                    </button>
+                    <button class="btn btn-secondary" id="takeNotes">
+                        <i class="fas fa-sticky-note"></i> AI Notes
+                    </button>
+                    <button class="btn btn-secondary" id="addToPlaylist">
+                        <i class="fas fa-plus"></i> Add to Playlist
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notes Modal -->
+    <div class="modal" id="notesModal">
+        <div class="modal-content">
+            <button class="modal-close" id="notesModalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="notes-content">
+                <h3><i class="fas fa-robot"></i> AI-Generated Notes</h3>
+                <div id="aiNotes">
+                    <!-- AI notes will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 LearnPath AI. Built with ❤️ for TAS 2025 Hackathon</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

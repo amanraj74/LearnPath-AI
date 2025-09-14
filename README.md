@@ -413,5 +413,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ for TAS 2025 Hackathon**
 
-> "AI-Powered Learning Platform for Modern Skills - Making education accessible and structured."#   L e a r n P a t h - A I  
- 
+> "AI-Powered Learning Platform for Modern Skills - Making education accessible and structured."
