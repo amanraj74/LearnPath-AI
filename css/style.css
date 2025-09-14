@@ -1,6 +1,6 @@
 /* ==========================================================================
    LearnPath AI - Professional CSS Styles
-   Built for TAS 2025 Hackathon - WINNING VERSION
+   Built for TAS 2025 Hackathon - WINNING VERSION (Enhanced)
    ========================================================================== */
 
 /* Reset and Base Styles */
@@ -11,8 +11,17 @@
 }
 
 :root {
-    /* Color Palette */
+    /* Enhanced Color Palette with Professional Gradients */
     --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --vibe-gradient: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 25%, #45b7d1 50%, #96ceb4 75%, #ffecd2 100%);
+    --ocean-gradient: linear-gradient(135deg, #667db6 0%, #0082c8 50%, #0052cc 100%);
+    --sunset-gradient: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
+    --galaxy-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    --forest-gradient: linear-gradient(135deg, #134e5e 0%, #71b280 100%);
+    --fire-gradient: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+    --cyber-gradient: linear-gradient(135deg, #0093e6 0%, #8fbcd3 100%);
+    --aurora-gradient: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    
     --primary-color: #667eea;
     --secondary-color: #764ba2;
     --accent-color: #4facfe;
@@ -127,7 +136,7 @@ body {
     font-size: var(--font-size-4xl);
     font-weight: 800;
     text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1) !important;
 }
 
 .tagline {
@@ -138,7 +147,7 @@ body {
     position: relative;
     z-index: 1;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
-    color: rgba(255, 255, 255, 0.95);
+    color: rgba(255, 255, 255, 0.95) !important;
 }
 
 .stats {
@@ -154,23 +163,28 @@ body {
     text-align: center;
 }
 
+/* FIXED: Enhanced Statistics Visibility */
 .stat-number {
     display: block;
     font-size: var(--font-size-2xl);
-    font-weight: 800;
+    font-weight: 900;
     margin-bottom: var(--spacing-xs);
-    color: rgba(255, 255, 255, 1);
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    color: rgba(255, 255, 255, 1) !important;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.7) !important;
     letter-spacing: 1px;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
 }
 
 .stat-label {
     font-size: var(--font-size-sm);
-    opacity: 1;
-    font-weight: 700;
-    color: rgba(255, 255, 255, 0.95);
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    letter-spacing: 0.5px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1) !important;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.8) !important;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.2);
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.2));
 }
 
 /* Search Section */
@@ -219,8 +233,10 @@ body {
     transform: translateY(-50%);
     color: var(--text-gray);
     font-size: var(--font-size-lg);
+    z-index: 2;
 }
 
+/* FIXED: Enhanced Search Input Visibility */
 .search-input {
     width: 100%;
     padding: var(--spacing-md) var(--spacing-md) var(--spacing-md) 3rem;
@@ -229,13 +245,23 @@ body {
     border-radius: var(--radius-lg);
     outline: none;
     transition: all var(--transition-base);
-    background: var(--bg-white);
+    background: var(--bg-white) !important;
+    color: var(--text-dark) !important;
+    font-weight: 500;
+}
+
+.search-input::placeholder {
+    color: var(--text-gray) !important;
+    opacity: 0.7;
+    font-weight: 400;
 }
 
 .search-input:focus {
     border-color: var(--primary-color);
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
     transform: translateY(-1px);
+    background: #ffffff !important;
+    color: var(--text-dark) !important;
 }
 
 .search-options {
@@ -251,14 +277,22 @@ body {
     font-size: var(--font-size-base);
     border: 2px solid var(--border-color);
     border-radius: var(--radius-md);
-    background: var(--bg-white);
+    background: var(--bg-white) !important;
+    color: var(--text-dark) !important;
     outline: none;
     transition: all var(--transition-base);
+    font-weight: 500;
 }
 
 .select-input:focus {
     border-color: var(--primary-color);
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.select-input option {
+    background: var(--bg-white);
+    color: var(--text-dark);
+    padding: var(--spacing-sm);
 }
 
 /* Button Styles */
@@ -322,6 +356,39 @@ body {
     padding: var(--spacing-xs) var(--spacing-sm);
     font-size: var(--font-size-sm);
     min-height: 36px;
+}
+
+/* Professional Gradient Classes */
+.gradient-vibe {
+    background: var(--vibe-gradient) !important;
+}
+
+.gradient-ocean {
+    background: var(--ocean-gradient) !important;
+}
+
+.gradient-sunset {
+    background: var(--sunset-gradient) !important;
+}
+
+.gradient-galaxy {
+    background: var(--galaxy-gradient) !important;
+}
+
+.gradient-forest {
+    background: var(--forest-gradient) !important;
+}
+
+.gradient-fire {
+    background: var(--fire-gradient) !important;
+}
+
+.gradient-cyber {
+    background: var(--cyber-gradient) !important;
+}
+
+.gradient-aurora {
+    background: var(--aurora-gradient) !important;
 }
 
 /* Quick Suggestions */
@@ -1001,6 +1068,73 @@ body {
     transform: translateY(-2px);
 }
 
+/* Enhanced Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-white: #1a1a1a;
+        --text-dark: #ffffff;
+        --text-gray: #cccccc;
+        --bg-light: #2d2d2d;
+        --border-color: #404040;
+    }
+    
+    /* Force bright white text for statistics in dark mode */
+    .stat-number {
+        color: rgba(255, 255, 255, 1) !important;
+        text-shadow: 3px 3px 10px rgba(0,0,0,0.9) !important;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4) !important;
+        filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.4)) !important;
+    }
+    
+    .stat-label {
+        color: rgba(255, 255, 255, 1) !important;
+        text-shadow: 3px 3px 10px rgba(0,0,0,0.9) !important;
+        font-weight: 900 !important;
+        -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3) !important;
+        filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3)) !important;
+    }
+    
+    /* Ensure search input remains visible in dark mode */
+    .search-input {
+        background: #ffffff !important;
+        color: #2c3e50 !important;
+        border-color: #404040;
+    }
+    
+    .search-input:focus {
+        background: #ffffff !important;
+        color: #2c3e50 !important;
+        border-color: var(--primary-color);
+    }
+    
+    .search-input::placeholder {
+        color: #6c757d !important;
+        opacity: 0.8;
+    }
+    
+    .select-input {
+        background: #ffffff !important;
+        color: #2c3e50 !important;
+        border-color: #404040;
+    }
+    
+    .select-input:focus {
+        background: #ffffff !important;
+        color: #2c3e50 !important;
+    }
+    
+    /* Improve header text visibility in dark mode */
+    .header h1 {
+        text-shadow: 3px 3px 10px rgba(0,0,0,0.9) !important;
+        color: rgba(255, 255, 255, 1) !important;
+    }
+    
+    .tagline {
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.8) !important;
+        color: rgba(255, 255, 255, 0.95) !important;
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .container {
@@ -1109,37 +1243,11 @@ body {
         --text-gray: #000;
         --bg-light: #fff;
     }
-}
-
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-white: #1a1a1a;
-        --text-dark: #ffffff;
-        --text-gray: #cccccc;
-        --bg-light: #2d2d2d;
-        --border-color: #404040;
-    }
     
-    /* Improve statistics visibility in dark mode */
-    .stat-number {
-        color: rgba(255, 255, 255, 1) !important;
-        text-shadow: 2px 2px 6px rgba(0,0,0,0.8) !important;
-    }
-    
-    .stat-label {
-        color: rgba(255, 255, 255, 0.95) !important;
-        text-shadow: 2px 2px 6px rgba(0,0,0,0.8) !important;
-        font-weight: 700 !important;
-    }
-    
-    /* Improve header text visibility */
-    .header h1 {
-        text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
-    }
-    
-    .tagline {
-        text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    .stat-number, .stat-label {
+        -webkit-text-stroke: 2px #000 !important;
+        color: #fff !important;
+        text-shadow: 0 0 5px #000 !important;
     }
 }
 
