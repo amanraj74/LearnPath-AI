@@ -7,7 +7,7 @@
 ## 🎯 Demo Links
 
 - **Live Demo**: [ https://learnpathaiaman.netlify.app/ ]
-- **Video Walkthrough**: [Demo video link]
+- **Video Walkthrough**: [ https://drive.google.com/file/d/1iPRDJ05qzhlVA8l_3ZOBGkM7nW0dM0aO/view?usp=sharing ]
 - **GitHub Repository**: [ https://github.com/amanraj74/LearnPath-AI ]
 
 ## 🏆 Hackathon Submission
