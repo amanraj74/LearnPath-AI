@@ -13,7 +13,7 @@
 ## 🏆 Hackathon Submission
 
 **Problem Statement**: Effective Learning with AI  
-**Team**: [ OM AI]  
+**Team**: [ OM AI ]  
 **Built with**: HTML5, CSS3, Vanilla JavaScript, YouTube Data API v3, OpenAI API  
 **Time**: 72 hours development sprint  
 
@@ -333,7 +333,7 @@ location.reload();
 - **JavaScript Compression**: Use build tools for optimization
 - **CDN**: Leverage Netlify/GitHub CDN for faster delivery
 
-## 🏆 Hackathon Winning Strategy
+## 🏆 Hackathon Strategy
 
 ### Technical Excellence
 - **Clean Code**: Well-structured, commented, and maintainable
@@ -347,11 +347,6 @@ location.reload();
 - **Problem Solving**: Addresses real learning pain points
 - **Scalability**: Architecture supports future enhancements
 
-### Presentation Tips
-1. **Demo Flow**: Practice smooth demonstration
-2. **Value Proposition**: Clearly articulate the problem and solution
-3. **Technical Depth**: Show understanding of implementation
-4. **Future Vision**: Discuss potential enhancements
 
 ## 📈 Future Enhancements
 
