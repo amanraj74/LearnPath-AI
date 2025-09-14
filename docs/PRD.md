@@ -307,11 +307,11 @@ Learning Dashboard → Progress Visualization → Achievement Badges → Recomme
 
 ## 📞 Contact & Support
 
-**Team**: Solo Developer - [Your Name]  
-**Email**: [your-email@example.com]  
-**GitHub**: [your-github-username]  
-**LinkedIn**: [your-linkedin-profile]  
-**Demo**: [live-demo-url]  
+**Team**: Solo Developer - [Aman Jaiswal]  
+**Email**: [aerraj50@example.com]  
+**GitHub**: [https://github.com/amanraj74]  
+**LinkedIn**: [https://www.linkedin.com/in/aman-jaiswal-05b962212/]  
+**Demo**: [https://learnpathaiaman.netlify.app/]  
 
 ---
 
