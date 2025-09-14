@@ -1,5 +1,5 @@
 # LearnPath AI - Presentation Deck
-**TAS 2025 Hackathon - WINNING PRESENTATION**
+**TAS 2025 Hackathon - PRESENTATION**
 
 ---
 
@@ -13,7 +13,7 @@ Transform YouTube Into Structured Learning
 AI-Powered Learning Platform
 TAS 2025 Hackathon Entry
 
-[Your Name] | [Your Contact]
+[ Aman Jaiswal ] | [ 9431771657 ]
 ```
 
 ### **Slide 2: The Problem**
@@ -157,117 +157,3 @@ The Future of Learning
 - Use 16px for body text
 
 ---
-
-## 🎯 **PRESENTATION TIPS**
-
-### **Slide Design**
-- Keep text minimal (6x6 rule)
-- Use high-quality visuals
-- Maintain consistent branding
-- Include call-to-action buttons
-
-### **Delivery Style**
-- Speak with confidence
-- Use storytelling techniques
-- Engage with the audience
-- Show enthusiasm for the product
-
-### **Timing**
-- 10 slides = 5 minutes
-- 30 seconds per slide
-- Practice transitions
-- Have backup slides ready
-
----
-
-## 📱 **DEMO INTEGRATION**
-
-### **Live Demo Points**
-- Slide 4: Show actual course generation
-- Slide 5: Demonstrate key features
-- Slide 6: Highlight technical excellence
-- Slide 7: Show user experience
-
-### **Demo Flow**
-1. Open application
-2. Search for "Python Programming"
-3. Show AI loading animation
-4. Display generated course
-5. Demonstrate video player
-6. Show progress tracking
-7. Highlight AI insights
-
----
-
-## 🏆 **WINNING ELEMENTS**
-
-### **What Judges Want to See**
-- ✅ Clear problem identification
-- ✅ Innovative solution approach
-- ✅ Real AI integration
-- ✅ User-centered design
-- ✅ Technical excellence
-- ✅ Business viability
-- ✅ Scalable architecture
-
-### **Your Competitive Advantages**
-- Real AI, not just mockups
-- Working demo with live data
-- Professional code quality
-- Clear market opportunity
-- Sustainable business model
-- Scalable technology stack
-
----
-
-## 🎤 **Q&A PREPARATION**
-
-### **Common Questions**
-1. **"How does the AI work?"**
-   - "We use OpenAI GPT-4 to analyze video content and create learning sequences based on engagement metrics, content quality, and learning progression patterns."
-
-2. **"What about video quality?"**
-   - "Our AI scores videos based on views, ratings, engagement, content relevance, and learning effectiveness to ensure only high-quality content is included."
-
-3. **"Can it handle any topic?"**
-   - "Yes, our AI can generate structured courses for any learning topic instantly, from programming to cooking to business skills."
-
-4. **"How do you ensure accuracy?"**
-   - "We use multiple data points, user feedback, and continuous learning to improve our recommendations and course quality."
-
-5. **"What's your monetization strategy?"**
-   - "Freemium model with premium features, enterprise licenses, and affiliate partnerships with content creators."
-
----
-
-## 🎯 **FINAL CHECKLIST**
-
-### **Before Presentation**
-- [ ] Practice full presentation 3+ times
-- [ ] Test demo on presentation computer
-- [ ] Prepare backup materials
-- [ ] Check all links and URLs
-- [ ] Time your presentation
-
-### **During Presentation**
-- [ ] Start with energy and confidence
-- [ ] Make eye contact with judges
-- [ ] Use gestures and body language
-- [ ] Speak clearly and at good pace
-- [ ] Show passion for your solution
-
-### **After Presentation**
-- [ ] Be ready for detailed questions
-- [ ] Have technical details prepared
-- [ ] Show business understanding
-- [ ] Demonstrate scalability thinking
-- [ ] Thank judges for their time
-
----
-
-**Remember: You're not just presenting a product - you're showcasing the future of online learning!**
-
----
-
-*This presentation deck is designed to highlight LearnPath AI's strengths while addressing all hackathon judging criteria. Practice it, customize it, and deliver it with confidence!*
-

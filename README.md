@@ -6,9 +6,9 @@
 
 ## 🎯 Demo Links
 
-- **Live Demo**: [Your Netlify/GitHub Pages URL here]
+- **Live Demo**: [ https://learnpathaiaman.netlify.app/ ]
 - **Video Walkthrough**: [Demo video link]
-- **GitHub Repository**: [Your GitHub repo link]
+- **GitHub Repository**: [ https://github.com/amanraj74/LearnPath-AI ]
 
 ## 🏆 Hackathon Submission
 
@@ -405,9 +405,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support & Contact
 
 - **GitHub Issues**: [Report bugs and feature requests]
-- **Email**: [Your email]
-- **LinkedIn**: [Your LinkedIn profile]
-- **Twitter**: [Your Twitter handle]
+- **Email**: [ aerraj50@gmail.com ]
+- **LinkedIn**: [https://www.linkedin.com/in/aman-jaiswal-05b962212/]
 
 ---
 
