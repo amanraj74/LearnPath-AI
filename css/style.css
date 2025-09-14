@@ -126,16 +126,19 @@ body {
 .logo h1 {
     font-size: var(--font-size-4xl);
     font-weight: 800;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    color: rgba(255, 255, 255, 1);
 }
 
 .tagline {
     font-size: var(--font-size-xl);
-    opacity: 0.9;
+    opacity: 0.95;
     margin-bottom: var(--spacing-xl);
-    font-weight: 400;
+    font-weight: 500;
     position: relative;
     z-index: 1;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    color: rgba(255, 255, 255, 0.95);
 }
 
 .stats {
@@ -154,15 +157,20 @@ body {
 .stat-number {
     display: block;
     font-size: var(--font-size-2xl);
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: var(--spacing-xs);
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    letter-spacing: 1px;
 }
 
 .stat-label {
     font-size: var(--font-size-sm);
     opacity: 1;
-    font-weight: 600;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    letter-spacing: 0.5px;
 }
 
 /* Search Section */
@@ -1111,6 +1119,27 @@ body {
         --text-gray: #cccccc;
         --bg-light: #2d2d2d;
         --border-color: #404040;
+    }
+    
+    /* Improve statistics visibility in dark mode */
+    .stat-number {
+        color: rgba(255, 255, 255, 1) !important;
+        text-shadow: 2px 2px 6px rgba(0,0,0,0.8) !important;
+    }
+    
+    .stat-label {
+        color: rgba(255, 255, 255, 0.95) !important;
+        text-shadow: 2px 2px 6px rgba(0,0,0,0.8) !important;
+        font-weight: 700 !important;
+    }
+    
+    /* Improve header text visibility */
+    .header h1 {
+        text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    }
+    
+    .tagline {
+        text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
     }
 }
 
