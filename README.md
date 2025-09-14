@@ -13,7 +13,7 @@
 ## 🏆 Hackathon Submission
 
 **Problem Statement**: Effective Learning with AI  
-**Team**: [Your name]  
+**Team**: [ OM AI]  
 **Built with**: HTML5, CSS3, Vanilla JavaScript, YouTube Data API v3, OpenAI API  
 **Time**: 72 hours development sprint  
 
